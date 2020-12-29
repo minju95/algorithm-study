@@ -1,6 +1,6 @@
 package ch06;
-
-public class Main_01 {
+//선택 정렬
+public class Selection_Sort {
 
 	public static void main(String[] args) {
 		int n = 10;
