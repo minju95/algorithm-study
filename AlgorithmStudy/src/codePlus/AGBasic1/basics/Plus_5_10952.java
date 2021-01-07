@@ -1,20 +1,23 @@
-package baekjoon_practice;
+package codePlus.AGBasic1.basics;
 
 import java.util.Scanner;
 
-public class Plus_3_10950 {
+public class Plus_5_10952 {
 
 	public static void main(String[] args) {
+		int a;
+		int b;
+		
 		Scanner scn = new Scanner(System.in);
-		int t = scn.nextInt();
-		int a,b;
-		for(int i=1; i<=t; i++) {
+		while(scn.hasNextInt()) {
 			a = scn.nextInt();
 			b = scn.nextInt();
+			if(a==0 && b==0) {
+				break;
+			}
 			System.out.println(a+b);
 		}
 		
-		
 	}
-
+	
 }

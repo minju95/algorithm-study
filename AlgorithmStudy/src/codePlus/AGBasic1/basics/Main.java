@@ -1,4 +1,4 @@
-package baekjoon_practice;
+package codePlus.AGBasic1.basics;
 
 public class Main {
 
