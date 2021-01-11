@@ -1,4 +1,4 @@
-package codePlus.AGBasic1.dataStructure1;
+package codePlus.AGBasic1.data_structure1;
 
 import java.util.LinkedList;
 import java.util.Queue;
